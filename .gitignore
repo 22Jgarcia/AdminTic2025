@@ -1,0 +1,10 @@
+#archivos de visual Studio
+
+.vs/
+*.sou
+*.user
+*.cache
+*.bin
+*.json
+*.sqlte
+obj/
