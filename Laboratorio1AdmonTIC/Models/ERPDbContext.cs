@@ -13,5 +13,6 @@ namespace Laboratorio1AdmonTIC.Models
 
         }
         public DbSet<Municipio> Municipios { get; set; }
+        public DbSet<Departamento> Departamentos { get; set; }
     }
 }

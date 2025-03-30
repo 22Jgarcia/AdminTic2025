@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Laboratorio1AdmonTIC.Models
 {
@@ -14,6 +15,11 @@ namespace Laboratorio1AdmonTIC.Models
 
         [DisplayName("Codigo de Municipio")]
         public int Codigo { get; set; }
+
+        // para hacer relación
+        [ForeignKey("DepartamentoId")]
+        public Guid DepartamentoId { get; set; }
+        public virtual Departamento Departamento { get; set; }
 
         [ScaffoldColumn(false)]
         public bool Inactivo { get; set; }

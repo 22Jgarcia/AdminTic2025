@@ -4,6 +4,7 @@ using Laboratorio1AdmonTIC.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Laboratorio1AdmonTIC.Migrations
 {
     [DbContext(typeof(ERPDbContext))]
-    partial class ERPDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250330210747_NombreDeMigracionDep")]
+    partial class NombreDeMigracionDep
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,9 +54,6 @@ namespace Laboratorio1AdmonTIC.Migrations
                     b.Property<int>("Codigo")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("DepartamentoId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<bool>("Inactivo")
                         .HasColumnType("bit");
 
@@ -62,8 +62,6 @@ namespace Laboratorio1AdmonTIC.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MunicipioId");
-
-                    b.HasIndex("DepartamentoId");
 
                     b.ToTable("Municipios");
                 });
@@ -268,17 +266,6 @@ namespace Laboratorio1AdmonTIC.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
-                });
-
-            modelBuilder.Entity("Laboratorio1AdmonTIC.Models.Municipio", b =>
-                {
-                    b.HasOne("Laboratorio1AdmonTIC.Models.Departamento", "Departamento")
-                        .WithMany()
-                        .HasForeignKey("DepartamentoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Departamento");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
