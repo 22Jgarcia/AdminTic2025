@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Cristian\\Desktop\\9.no Semestre\\Administración de software\\JORGE\\AdminTic2025\\Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj": {}
   },
   "projects": {
@@ -12,9 +13,30 @@
         "projectPath": "C:\\Users\\Cristian\\Desktop\\9.no Semestre\\Administración de software\\JORGE\\AdminTic2025\\Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj",
         "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Cristian\\Desktop\\9.no Semestre\\Administración de software\\JORGE\\AdminTic2025\\Laboratorio1AdmonTIC\\obj\\",
+=======
+    "C:\\Users\\lopez\\Documents\\GitHub\\Ejercicio_AdmonTIC\\AdminTic2025\\Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lopez\\Documents\\GitHub\\Ejercicio_AdmonTIC\\AdminTic2025\\Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lopez\\Documents\\GitHub\\Ejercicio_AdmonTIC\\AdminTic2025\\Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj",
+        "projectName": "Laboratorio1AdmonTIC",
+        "projectPath": "C:\\Users\\lopez\\Documents\\GitHub\\Ejercicio_AdmonTIC\\AdminTic2025\\Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj",
+        "packagesPath": "C:\\Users\\lopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lopez\\Documents\\GitHub\\Ejercicio_AdmonTIC\\AdminTic2025\\Laboratorio1AdmonTIC\\obj\\",
+>>>>>>> e4bdbaa90b8c62c9eb1a67076134dc9c17819069
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> e4bdbaa90b8c62c9eb1a67076134dc9c17819069
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +61,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -91,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
