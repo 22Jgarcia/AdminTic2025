@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Cristian\\Desktop\\9.no Semestre\\Administraci\u00F3n de software\\JORGE\\AdminTic2025\\",
+  "WorkspaceRootPath": "C:\\Users\\vboxuser\\Documents\\GitHub\\AdminTic2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08B602CB-EEF1-4CD1-9987-B696E4DB0C40}|Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj|c:\\users\\cristian\\desktop\\9.no semestre\\administraci\u00F3n de software\\jorge\\admintic2025\\laboratorio1admontic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{08B602CB-EEF1-4CD1-9987-B696E4DB0C40}|Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj|c:\\users\\vboxuser\\documents\\github\\admintic2025\\laboratorio1admontic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08B602CB-EEF1-4CD1-9987-B696E4DB0C40}|Laboratorio1AdmonTIC\\Laboratorio1AdmonTIC.csproj|solutionrelative:laboratorio1admontic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -13,25 +13,29 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 596,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian\\Desktop\\9.no Semestre\\Administraci\u00F3n de software\\JORGE\\AdminTic2025\\Laboratorio1AdmonTIC\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\AdminTic2025\\Laboratorio1AdmonTIC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Laboratorio1AdmonTIC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cristian\\Desktop\\9.no Semestre\\Administraci\u00F3n de software\\JORGE\\AdminTic2025\\Laboratorio1AdmonTIC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\AdminTic2025\\Laboratorio1AdmonTIC\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Laboratorio1AdmonTIC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T21:26:57.665Z",
+              "WhenOpened": "2025-03-23T21:07:06.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
